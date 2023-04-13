@@ -1,0 +1,39 @@
+1. Qual é a empresa fictícia que será utilizada na página?
+    4Safe Seguros
+
+2. Onde estarão localizados o cabeçalho e o rodapé?
+    Cabeçalho no início e rodapé no final.
+
+3. Qual é o título do site?
+    4Safe Seguros - Tranquilidade na palma da mão
+
+4. Quantas seções o site terá e quais serão os nomes dessas seções?
+    Quatro seções:
+    * Quem somos;
+    * Nossos produtos/serviços;
+    * FAQ/Perguntas Frequentes.
+    * Contato;
+
+5. Qual a localização das seções no site?
+    Uma abaixo da outra, seguindo a ordem disposta acima.
+
+6. A página terá textos? Em que seções esses textos estarão?
+    Textos nas seções: Quem somos, Nossos produtos/serviços e FAQ.
+
+7. A página terá imagens? Em quais seções elas serão adicionadas?
+    Imagens nas seções: Quem somos e Nossos produtos/serviços.
+
+8. A página terá vídeos? Em quais seções eles estarão?
+    Vídeos nas seções: Quem somos e Nossos produtos/serviços.
+
+9. Em que seção estará localizado o formulário de contato?
+    Rodapé.
+
+10. Haverá botões no site?
+    Botões no cabeçalho direcionando para às seções, e na seção contato.
+
+11. Onde estará localizado o logo da empresa?
+    No cabeçalho à esquerda.
+
+12. Qual a localização dos ícones de redes sociais?
+    No rodapé.
