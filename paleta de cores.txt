@@ -1,10 +1,12 @@
 cores hexadecimais
 
-1. #3b4f67
-2. #89ba6b
-3. #729d67
-4. #e0e9ee
-5. 
-6. 
-7. 
-8. 
+1. #3b4f67 - azul escuro
+2. #89ba6b - verde claro 
+3. #729d67 - verde musgo claro
+4. #e0e9ee - branco
+5. #a5b2c0 - fundo do site
+6. #85b274 - destaques
+7. #3a515d - textos
+8. #4c6963 - títulos ?
+9. #dde6ef - header - alice blue
+10. #3b4f67 - título site

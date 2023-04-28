@@ -1,73 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
     <title>4Safe Seguros</title>
 </head>
+
 <body>
     <header>
-        <h1>4Safe Seguros</h1> 
-        <h3>Tranquilidade na palma da mão</h3>
-        <aside>
-            <img>Logo
-            //LINKAR IMAGEM AQUI
-        </aside>
-        <section>
-            ////colocar lista de seções
-            //Quem somos nós
-            //NOSSOS PRODUTOS
-            //FAQ/PERGUNTAS FREQUENTES
-            //CONTATO
-        </section>
+        
+        <img class="logo-frase" src="./assets/Logo frase cortada.jpg" alt="frase: Tranquilidade na palma da sua mão">        
+        <img class="logo-normal" src="./assets/Logo cavalo.jpg" alt="cavalo logo 4Safe">  
+        <img class="logo-invertido" src="./assets/Logo cavalo inverso.jpg" alt="cavalo logo 4Safe invertido">      
+        <nav>
+
+            <button class="custom-btn btn-3"><span><a href="#quem-somos-nos">Quem somos nós</a></span></button>
+            <button class="custom-btn btn-3"><span><a href="#nossos-produtos">Nossos Produtos</a></span></button>
+            <button class="custom-btn btn-3"><span><a href="#faq">FAQ</a></span></button>
+            <button class="custom-btn btn-3"><span><a href="#contato">Contato</a></span></button>
+                        
+        </nav>
     </header>
     <main>
-        <section class="quem somos nos">
+        <section id="quem-somos-nos">
             <h2>Quem somos nós</h2>
-            <p>
-                //ESCREVER APRESENTAÇÃO DA EMPRESA
-            </p>
-            <video>
-                //COLOCAR VÍDEO DE PESSOAS TRANQUILAS E FELIZES
-                //VÍDEO COM AUTOPLAY
-            </video>
+            
+            <p>Ei, jovem! Você está planejando sua independência, ou já vive longe dos pais há algum tempo, mas tem diversas inseguranças? Não sabe o que fazer no caso de uma emergência? A 4Safe pensa em você! Somos uma corretora que se concentra em fornecer soluções de seguros personalizadas.
+
+            Nós entendemos que você está em uma fase da vida em que suas necessidades e prioridades podem mudar rapidamente, e é por isso que temos uma equipe de corretores experientes para ajudá-lo a escolher as melhores opções, de maneira fácil, rápida, sem burocracia, e tudo direto pelo seu smartphone. Assim você pode desfrutar da vida com tranquilidade. Fale conosco hoje e proteja o seu futuro!</p>
+           <img class="dog-carro" src="./assets/slider5.jpg" alt="cachorro na janela do carro">
         </section>
 
-        <section class="nossos produtos">
+        <section id="nossos-produtos">
             <h2>Nossos produtos</h2>
-            <aside class="seguro de vida">
-                //*COLOCAR À ESQUERDA*
-                <h3>Seguro de vida</h3>
-                <p>//DESCRIÇÃO</p>
-                <img> //IMAGEM DE PESOAS FELIZES
-            </aside>
-            <aside class="seguro veicular">
-                //*COLOCAR À DIREITA*
-                <h3>Seguro veicular</h3>
-                <p>//DESCRIÇÃO</p>
-                <img> //IMAGEM DE PESSOAS *CHÓVENS* FELIZES NO CARRO
-            </aside>
+            
+                <h3 class="vida-titulo">Seguro de vida</h3>
+                <p class="vida-texto">Já pensou em proteger seu futuro? Ter um seguro de vida pode te dar a tranquilidade financeira necessária em caso de algum imprevisto. Ele pode ajudar a cobrir custos de funeral, dívidas pendentes e até mesmo fornecer cobertura contra doenças graves e incapacidade. Além disso, quanto mais cedo fizer, menos você paga pelo seguro de vida. 
+
+                Porém, é importante considerar suas necessidades e opções antes de escolher uma apólice. Se precisar de ajuda, pode conversar com um de nossos corretores para escolher o melhor seguro de vida para você, com base em sua situação financeira atual e futura. Garanta que você e sua família estejam protegidos, para aproveitar a vida com mais tranquilidade.</p>
+                <img class="vida-imagem" src="./assets/seguro-vida.jpg" alt="mãe eijando filha no rosto">
+    
+                <h3 class="carro-titulo">Seguro veicular</h3>
+                <p class="carro-texto">Se você tem um carro, sabe o quão importante é mantê-lo protegido. Ter um seguro veicular pode ajudar a cobrir os custos de reparo do seu veículo em caso de acidentes, roubos ou danos. Além disso, algumas apólices também oferecem assistência 24 horas em caso de emergência na estrada.
+
+                O melhor de tudo, você pode obter uma apólice de seguro veicular com um preço acessível, adequado ao seu orçamento. No entanto, é importante comparar as opções de seguros disponíveis e escolher a que melhor se adapte às suas necessidades. Fale com um de nossos corretor caso tenha dúdivas, e elu te ajudará a escolher a melhor opção de seguro veicular para que você proteja seu carro com segurança.</p>
+                <img class="carro-imagem" src="./assets/seguro-carro.jpg" alt="pessoas tranquilas andando de carro">
+           
         </section>
 
-        <section class="faq">
+        <section id="faq">
             <h2>FAQ/Perguntas frequentes</h2>
-            //de 4 a 5 perguntas
-            <p>//perguntas visíveis e respostas que podem ser escondidas</p>
+            
+            <p1> Qual é o período de carência para receber o pagamento do seguro de vida em caso de falecimento?</p1>
+
+                <r1>R: O período de carência pode variar, dependendo do plano escolhido. Nosso menor período de carência é de 3 (três) meses, e o maior de 1 (um) ano.</r1>
+             
+            <p2>O que é um beneficiário e como escolher um beneficiário para meu seguro de vida?</p2>
+                
+                <r2>R: Beneficiário é a pessoa que receberá o valor do seguro, em caso de falecimento. Pode ser um parente próximo ou distante, amigo, ou alguém que você goste muito. Lembrando que existem algumas regras legais para a escolha do beneficiário.</r2>
+        
+            <p3>Posso alterar ou adicionar beneficiários na minha apólice de seguro de vida após a compra?</p3>
+                
+                <r3>R: A vida é dinâmica e seus relacionamentos e circunstâncias podem mudar ao longo do tempo. Se você quiser fazer uma alteração em sua apólice, precisa apenas aguardar o período de carência de 3 (três) meses.</r3>
+            
+            <p4>Como escolher a melhor apólice de seguro de carro para minha situação financeira e necessidades de proteção?</p4>
+                
+                <r4>R: Um dos primeiros passos é avaliar o valor do seu carro, suas preferências de cobertura e seu orçamento. Nossa equipe de consultores está à disposição para lhe ajudar a entender melhor suas opções e escolher a mais adequada para você.</r4>
+            
+            <p5>Posso adicionar cobertura extra, como cobertura contra roubo ou vandalismo, à minha apólice de seguro de carro?</p5>
+                
+                <r5>R: Claro que sim! Se você estiver preocupado(a) com roubo ou vandalismo, adicionar cobertura extra à sua apólice de seguro de carro é uma ótima opção. É bem fácil e rápido, direto pelo seu celular. 
+                Lembrando que para fazer uma alteração em sua apólice, precisa apenas aguardar o período de carência de 3 (três) meses.</r5>
+            
         </section>
 
-        <section class="contato">
-            <label>
-                //colocar formulário centralizado
-            </label>
+        <section id="contato">
+            <h2>Contato</h2>
+            <form onsubmit="exibirAlert(event)">
+            <div class="form1">
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="nome" class="nome" required>
+            </div>
+            <div class="form2">
+            <label for="email">E-mail:</label>            
+            <input type="text" name="email" id="email" required>
+            </div>
+            <div class="form3">
+            <label for="telefone">Telefone:</label>
+            <input type="number" name="telefone" id="telefone" required>
+            </div>
+            <div class="form4">
+            <label for="mensagem">Mensagem:</label>
+            <textarea type="text" data-ls-module="charCounter" maxlength="500" name="mensagem" id="mensagem" class="mensagem" required></textarea>
+            </div>
+            <button class="custom-btn btn-3" type="submit" name="enviar"><span>Enviar</span></button>
+        </form>
         </section>
     </main>
 
     <footer>
-        //links para redes sociais: facebook, instagram, whatsapp, tiktok
-        //Infos: end. fictício, e-mail fictício, CNPJ fictício
+        <div>
+        <a href="https://pt-br.facebook.com/" target="_blank" rel="noopener noreferrer"><img class="redes" src="./assets/icons8-facebook-novo-100.png"></a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"><img class="redes" src="./assets/icons8-instagram-100.png"></a>
+        <a href="https://www.whatsapp.com/?lang=pt_br" target="_blank" rel="noopener noreferrer"><img class="redes" src="./assets/icons8-whatsapp-100.png"></a>
+        <a href="https://play.google.com/store/apps?hl=pt_BR&gl=US" target="_blank" rel="noopener noreferrer"><img class="redes" src="./assets/icons8-google-play-100.png"></a>
+        </div>
     </footer>
-    
+
 </body>
+
 </html>
