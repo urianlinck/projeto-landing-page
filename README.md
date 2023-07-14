@@ -16,7 +16,6 @@ Durante a construção desse site, foram estudados e praticados os seguintes con
   
   [Logo aqui](https://labenu.notion.site/Projeto-Landing-Page-WFS-7b37ff1460e741b1b5e1e049d7df9d69)
    </details>
-O enunciado completo está no Sistema de Estudante, na sessão de Projetos https://estudante.labenu.com.br/conteudos/tecnico/projetos
 
 ## Lista de requisitos
 
